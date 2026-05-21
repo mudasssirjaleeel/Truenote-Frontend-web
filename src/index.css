@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50:  #fdf8f0;
+  --color-brand-100: #faeeda;
+  --color-brand-200: #f5d9a8;
+  --color-brand-300: #eebf6d;
+  --color-brand-400: #e5a030;
+  --color-brand-500: #c47f18;
+  --color-brand-600: #9a6010;
+  --color-brand-700: #7a4a0e;
+  --color-brand-800: #5c3610;
+  --color-brand-900: #3d2208;
+
+  --font-sans:    Inter, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+  display: inline-block;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Add to your index.css or App.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
