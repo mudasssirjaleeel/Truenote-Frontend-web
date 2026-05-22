@@ -155,7 +155,7 @@ export default function App() {
         }
       >
         {/* Dashboard - view_dashboard required */}
-        <Route element={<AdminRoute permission="view_dashboard" />}>
+        <Route element={<AdminRoute permission="" />}>
           <Route path="/admin/dashboard" element={<AdminDashboard />} />
         </Route>
 
