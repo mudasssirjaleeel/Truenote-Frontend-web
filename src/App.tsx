@@ -231,12 +231,7 @@ export default function App() {
         <Route element={<AdminRoute permission="view_staff" />}>
           <Route path="/admin/staff" element={<AdminStaffPage />} />
         </Route>
-
-        {/* KDS - view_kds required */}
-        <Route element={<AdminRoute permission="view_kds" />}>
-          <Route path="/admin/kds" element={<KDSDisplay />} />
-        </Route>
-
+        
         {/* Permissions - manage_staff_roles required */}
         <Route element={<AdminRoute permission="manage_staff_roles" />}>
           <Route path="/admin/permissions" element={<AdminPermissionsPage />} />
