@@ -35,7 +35,6 @@ const ALL_NAV = [
   { to: "/admin/categories", label: "Categories", icon: Tags, permission: "view_categories" },
   { to: "/admin/banners", label: "Banners", icon: Image, permission: "view_banners" },
   { to: "/admin/subscriptions", label: "Subscriptions", icon: Calendar, permission: "view_subscriptions" },
-  { to: "/admin/kds", label: "Kitchen Display", icon: View, permission: "view_kds" },
   { to: "/admin/reports_summary", label: "Reports", icon: TrendingUp, permission: "view_reports" },
 ];
 
