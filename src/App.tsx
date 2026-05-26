@@ -42,7 +42,6 @@ import BrewGuideDetailPage04 from "./pages/brewguide_details/BrewGuideDetailPage
 import AdminSubscriptionsPage from "./pages/admin/subscription/AdminSubscriptionsPage";
 import AdminReporting from "./pages/admin/reporting/AdminReportsPage";
 import AdminStaffPage from "./pages/admin/staff/AdminStaffPage";
-import KDSDisplay from "./pages/admin/kdsDisplay/KDSDisplay";
 import UnauthorizedPage from "./pages/admin/UnauthorizedPage";
 import AdminPermissionsPage from "./pages/admin/permissions/AdminPermissionsPage";
 import UserNotificationsPage from "./pages/profile/UserNotificationsPage";
